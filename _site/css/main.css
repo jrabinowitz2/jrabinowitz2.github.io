@@ -6527,7 +6527,8 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 5px; }
 
 .label-info, .badge-info {
-  background-color: #005985; }
+  background-color: #005985;
+  color: white; }
 
 /** MAIN STYLE **/
 body {

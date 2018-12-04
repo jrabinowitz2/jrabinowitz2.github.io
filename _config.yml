@@ -15,15 +15,31 @@ primarylinks:
    url: https://depaul.joinhandshake.com/users/3344898
 
 skills:
- - Assembly
- - C
- - Python
- - Linux
+ - Consulting
  - Pentesting
- - Network Security
+ - Enterprise Network Design/Security
  - Malware Analysis
- - Reverse Engineeering
+ - Reverse-Engineeering
  - Web Dev
+ - Malware Removal
+
+technologies:
+ - Assembly
+ - C/C++
+ - Python
+ - SQL
+ - Linux
+ - Git
+ - Apache
+ - RoR
+ - Bootstrap
+ - Jekyll
+ - Arduino
+ - Hardware
+ - IDA Pro
+ - VMWare
+ - OllyDGB
+ - CISCO
 
 certs:
  - name: CCENT
@@ -33,21 +49,25 @@ certs:
 
 education:
  - school: DePaul University
-   level: Bachelor of Science (B.Sc.)
-   date: 2016-2019
+   level: B.S.
+   date: Spring 2019
    subject: Cybersecurity
+   logo: depaul.png
+   logo_size: 30
    courses:
-      course1
-      course2
-      course3
+    - course1
+    - course2
+    - course3
  - school: University of Illinois
-   level: (None :/) 
-   date: 2012-2016
+   level: B.S. 
+   date: "-"
    subject: Electrical Engineering
+   logo: uiuc.png
+   logo_size: 30
    courses:
-      courseA
-      courseB
-      courseC
+    - courseA
+    - courseB
+    - courseC
 
 github:
  - jrabinowitz2/jrabinowitz2.github.io

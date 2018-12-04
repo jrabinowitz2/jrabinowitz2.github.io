@@ -1,4 +1,4 @@
-<div id="skillsBubble" class="rounded_panel txt_lightgrey">
+<div id="skillsBubble" class="rounded_panel txt_lightgrey" style="font-size:1vw;">
 	<div class="top-rounded-panel grey-bg">
 		<h1 id="user-skills">Skills</h1>
 	</div>
@@ -6,9 +6,19 @@
 
 		<div id="skills">
 			{% for skill in site.skills %}
-				<span class="label label-info label-padded"> {{skill}} </span> &nbsp;  
+				<span style="white-space:nowrap;text-color:white;" class="label label-info label-padded"> {{skill}} </span> &nbsp;  
 			{% endfor %}
 		</div>
-		<br>
 	</div>
+        <div class="top-rounded-panel grey-bg">
+                <h1 id="user-skills">Technologies</h1>
+        </div>
+        <div class="content-rounded-panel">
+
+                <div id="skills">
+                        {% for technology in site.technologies %}
+                                <span style="white-space:nowrap;text-color:white;" class="label label-info label-padded"> {{technology}} </span> &nbsp;
+                        {% endfor %}
+                </div>
+        </div>
 </div>

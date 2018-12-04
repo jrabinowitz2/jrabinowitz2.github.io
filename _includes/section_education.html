@@ -1,25 +1,25 @@
 <div class="rounded_panel txt_lightgrey">
 	<div class="top-rounded-panel grey-bg">
-		<h1>Formal Education</h1>
+		<h1>Education</h1>
 	</div>
 	<div class="content-rounded-panel">
 		<div>
 			<table class="table table-striped table-hover table-condensed">
 				<thead>
 					<tr>
-						<th><a style="cursor: pointer;">Certification</a></th>
-						<th><a style="cursor: pointer;">Subject</a></th>
-						<th><a style="cursor: pointer;">Date Completed</a></th>
-						<th class="hidden-sm hidden-xs" ><a style="cursor: pointer;">University</a></th>
+						<th><a style="cursor: pointer;">University</a></th>
+						<th><a style="cursor: pointer;">Field of Study</a></th>
+						<th><a style="cursor: pointer;">Degree</a></th>
+						<th class="hidden-sm hidden-xs" ><a style="cursor: pointer;">Expected Graduation</a></th>
 					</tr>
 				</thead>
 				<tbody>
 					{% for edu in site.education %}
 						<tr id="EducationData_2500">
-							<td>{{edu.level}}</td>
+							<td><img src="{{site.url}}/assets/{{edu.logo}}" width="{{edu.logo_size}}px" height="{{edu.logo_size}}px" class="img-fluid">&nbsp;{{edu.school}}</td>
 							<td>{{edu.subject}}</td>
-							<td>{{edu.date}}</td>
-							<td class="hidden-sm hidden-xs" >{{edu.school}}</td>
+							<td>{{edu.level}}</td>
+							<td class="hidden-sm hidden-xs" >{{edu.date}}</td>
 						</tr>
 					{% endfor %}
 				</tbody>
