@@ -9,10 +9,16 @@ description:
 primarylinks:
  - title: Github
    url: https://github.com/jrabinowitz2
+   logo: github.png
+   logo_size: 30
  - title: LinkedIn
    url: https://www.linkedin.com/in/josh-rabinowitz-915705158
+   logo: linkedIn.png
+   logo_size: 30
  - title: Handshake
    url: https://depaul.joinhandshake.com/users/3344898
+   logo: handshake.png
+   logo_size: 30
 
 skills:
  - Consulting
@@ -22,6 +28,8 @@ skills:
  - Reverse-Engineeering
  - Web Dev
  - Malware Removal
+ - Technical Writing
+ - Forensics
 
 technologies:
  - Assembly
@@ -31,6 +39,7 @@ technologies:
  - Linux
  - Git
  - Apache
+ - Firewalls
  - RoR
  - Bootstrap
  - Jekyll
@@ -55,9 +64,26 @@ education:
    logo: depaul.png
    logo_size: 30
    courses:
-    - course1
-    - course2
-    - course3
+    - Applied Networks and Security
+    - Basic Communication Systems
+    - Business/Professional Communication
+    - Codes and Ciphers
+    - Computer Systems II
+    - Computer/Telecomm Systems
+    - Data Structures in Java I, II
+    - Digital Image Processing
+    - Discrete Math I
+    - Fundamentals of Info Assurance
+    - Host Based Security
+    - Intro to Databases
+    - Intro to Local Area Networks
+    - Intro to Web Computing
+    - Issues in Information Security
+    - Network Interconnection Technologies
+    - Python
+    - Security Testing & Assessment
+    - Telecommunication/Network Sec Practicum
+    - Web Dev I
  - school: University of Illinois
    level: B.S. 
    date: "-"
@@ -65,9 +91,26 @@ education:
    logo: uiuc.png
    logo_size: 30
    courses:
-    - courseA
-    - courseB
-    - courseC
+    - Analog Signal Processing
+    - Applied Linear Algebra
+    - Calculus I, II, & III
+    - Computer Systems & Programming
+    - Differential Equations
+    - Digital Signal Processing
+    - Electromagnetic Fields & Waves I
+    - Electronic Circuits Lab
+    - Illinois Robotics in Space
+    - Intro to Computer Eng
+    - Intro to Computing Systems
+    - Intro to Electrical/Computer Eng
+    - Intro to Electronics
+    - Microelectronic Circuits
+    - Probability for Electrical/Computer Eng
+    - Topics in Mathematics
+    - University Physics&#58; Classical/Mechanics
+    - University Physics&#58; Electrostatics & Magnetism
+    - University Physics&#58; Quantum Mechanics
+    - University Physics&#58; Thermodynamics
 
 github:
  - jrabinowitz2/jrabinowitz2.github.io

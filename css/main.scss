@@ -3,6 +3,21 @@
 
 @import 'bootstrap/bootstrap';
 
+/** Parallax scrolling effect **/
+.parallax {
+    /** The image used **/ 
+    background-image: url("{{site.url}}/assets/background_laptop.jpg");	
+
+    /* Set a specific height */
+    min-height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /** Mobile-friendly columns **/
 .row.row-grid [class*="col-"] + [class*="col-"] {
     margin-top: 15px;
@@ -57,8 +72,8 @@
 
 
 body {
-/*	background: url('../assets/background_textured.jpg'); */
-	background-color: rgb(192,192,192);
+	background: url('../assets/background_laptop.jpg');
+/**	background-color: rgb(192,192,192); **/
 	padding-top: 40px;
 	color:black; 
 }

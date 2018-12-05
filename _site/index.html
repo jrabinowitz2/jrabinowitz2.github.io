@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- Parallax effect -->
+<div class="parallax">
+
        <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,18 +17,18 @@
              <nav class="navbar navbar-inverse  navbar-fixed-top navbar-dark bg-dark">
 	<div class="container">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="#">
+			<a class="navbar-brand" href="#" style="color:coral;">
 				Josh Rabinowitz
 			</a>
 		</div>
 		<div id="navbar" class="navbar-header">
 			<ul class="nav navbar-nav navbar navbar-right">
 				
-					<div class="col"><li><a style="color:gray;" class="nav-link" href="https://github.com/jrabinowitz2" target="_blank">Github</a></li></div>
+					<div class="col"><li><img src="http://localhost:4000/assets/github.png" width="30px" height="30px" class="img-fluid"><a style="color:coral;" class="nav-link" href="https://github.com/jrabinowitz2" target="_blank">Github</a></li></div>
 				
-					<div class="col"><li><a style="color:gray;" class="nav-link" href="https://www.linkedin.com/in/josh-rabinowitz-915705158" target="_blank">LinkedIn</a></li></div>
+					<div class="col"><li><img src="http://localhost:4000/assets/linkedIn.png" width="30px" height="30px" class="img-fluid"><a style="color:coral;" class="nav-link" href="https://www.linkedin.com/in/josh-rabinowitz-915705158" target="_blank">LinkedIn</a></li></div>
 				
-					<div class="col"><li><a style="color:gray;" class="nav-link" href="https://depaul.joinhandshake.com/users/3344898" target="_blank">Handshake</a></li></div>
+					<div class="col"><li><img src="http://localhost:4000/assets/handshake.png" width="30px" height="30px" class="img-fluid"><a style="color:coral;" class="nav-link" href="https://depaul.joinhandshake.com/users/3344898" target="_blank">Handshake</a></li></div>
 				
 			</ul>
 		</div>
@@ -41,7 +45,7 @@
 <div id="contactBubble" class="rounded_panel txt_lightgrey" style="text-align:center;">
         <div class="top-rounded-panel grey-bg">
 		<br>
-		<img style="margin-left:auto;margin-right:28%;display:block;border: 3px solid #ddd; border-radius: 4px; padding:10px;" src="http://localhost:4000/assets/portrait.png" class="img-fluid" width="55%" height="auto">
+		<img style="margin-left:auto;margin-right:28%;display:block;border: 3px solid #005985; border-radius: 4px; padding:10px;" src="http://localhost:4000/assets/portrait.png" class="img-fluid" width="55%" height="auto">
                 <h1 id="user-contact">Contact Me &nbsp;</h1>
         </div>
         <div class="content-rounded-panel">
@@ -64,13 +68,13 @@
 					<img data-shadow="none" data-shadow-direction="middle" height="auto" width="50%" src="http://localhost:4000/assets/resume.png" alt="" style="opacity: 1;">
 				</td></tr>
 				<tr><td align="center">
-					<a target="_blank" style="text-decoration: underline;" href="http://localhost:4000/assets/resume.pdf">Download a PDF Version</a>
+					<a target="_blank" style="color:coral;text-decoration: underline;" href="http://localhost:4000/assets/resume.pdf">Download a PDF Version</a>
 				</td></tr>
 			</table>
 		</div>
 	</div>
 </div>
-<!--
+<br><span style="font-size:1vw;color:red;">---(Broken LinkedIn Badge:)---<br><!--
 <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="josh-rabinowitz-915705158">
 <a class="LI-simple-link" target="_blank" href='https://www.linkedin.com/in/josh-rabinowitz-915705158?trk=profile-badge'>Josh Rabinowitz</a>
 </div>
@@ -78,7 +82,7 @@
 <div class="container">
 <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="josh-rabinowitz-915705158"><a class="LI-simple-link" href='https://www.linkedin.com/in/josh-rabinowitz-915705158?trk=profile-badge'>Josh Rabinowitz</a></div>
 </div>
-</div>
+-------------------------------------</span></div>
     <div class="col-sm-9"><div id="introBubble" style="font-size:1vw;" class="rounded_panel txt_lightgrey">
 	<div class="top-rounded-panel grey-bg">
 		<h1 id="user-intro">Background</h1>
@@ -114,6 +118,10 @@ I enjoy creating great products with great user experiences and working in a dyn
 			
 				<span style="white-space:nowrap;text-color:white;" class="label label-info label-padded"> Malware Removal </span> &nbsp;  
 			
+				<span style="white-space:nowrap;text-color:white;" class="label label-info label-padded"> Technical Writing </span> &nbsp;  
+			
+				<span style="white-space:nowrap;text-color:white;" class="label label-info label-padded"> Forensics </span> &nbsp;  
+			
 		</div>
 	</div>
         <div class="top-rounded-panel grey-bg">
@@ -136,6 +144,8 @@ I enjoy creating great products with great user experiences and working in a dyn
                                 <span style="white-space:nowrap;text-color:white;" class="label label-info label-padded"> Git </span> &nbsp;
                         
                                 <span style="white-space:nowrap;text-color:white;" class="label label-info label-padded"> Apache </span> &nbsp;
+                        
+                                <span style="white-space:nowrap;text-color:white;" class="label label-info label-padded"> Firewalls </span> &nbsp;
                         
                                 <span style="white-space:nowrap;text-color:white;" class="label label-info label-padded"> RoR </span> &nbsp;
                         
@@ -203,8 +213,8 @@ I enjoy creating great products with great user experiences and working in a dyn
 				<thead>
 					<tr>
 						<th><a style="cursor: pointer;">University</a></th>
-						<th><a style="cursor: pointer;">Field of Study</a></th>
-						<th><a style="cursor: pointer;">Degree</a></th>
+						<th><a style="cursor: pointer;">Field</a></th>
+						<th><a style="cursor: pointer;">Program</a></th>
 						<th class="hidden-sm hidden-xs" ><a style="cursor: pointer;">Expected Graduation</a></th>
 					</tr>
 				</thead>
@@ -250,15 +260,83 @@ I enjoy creating great products with great user experiences and working in a dyn
                                 <tbody>
                                         
                                                 <tr id="EducationData_2500">
-                                                        <td class="hidden-sm hidden-xs" >course1</td>
+                                                        <td class="hidden-sm hidden-xs" >Applied Networks and Security</td>
                                                 </tr>
                                         
                                                 <tr id="EducationData_2500">
-                                                        <td class="hidden-sm hidden-xs" >course2</td>
+                                                        <td class="hidden-sm hidden-xs" >Basic Communication Systems</td>
                                                 </tr>
                                         
                                                 <tr id="EducationData_2500">
-                                                        <td class="hidden-sm hidden-xs" >course3</td>
+                                                        <td class="hidden-sm hidden-xs" >Business/Professional Communication</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Codes and Ciphers</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Computer Systems II</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Computer/Telecomm Systems</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Data Structures in Java I, II</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Digital Image Processing</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Discrete Math I</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Fundamentals of Info Assurance</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Host Based Security</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Intro to Databases</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Intro to Local Area Networks</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Intro to Web Computing</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Issues in Information Security</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Network Interconnection Technologies</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Python</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Security Testing & Assessment</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Telecommunication/Network Sec Practicum</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Web Dev I</td>
                                                 </tr>
                                         
                                 </tbody>
@@ -275,15 +353,83 @@ I enjoy creating great products with great user experiences and working in a dyn
                                 <tbody>
                                         
                                                 <tr id="EducationData_2500">
-                                                        <td class="hidden-sm hidden-xs" >courseA</td>
+                                                        <td class="hidden-sm hidden-xs" >Analog Signal Processing</td>
                                                 </tr>
                                         
                                                 <tr id="EducationData_2500">
-                                                        <td class="hidden-sm hidden-xs" >courseB</td>
+                                                        <td class="hidden-sm hidden-xs" >Applied Linear Algebra</td>
                                                 </tr>
                                         
                                                 <tr id="EducationData_2500">
-                                                        <td class="hidden-sm hidden-xs" >courseC</td>
+                                                        <td class="hidden-sm hidden-xs" >Calculus I, II, & III</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Computer Systems & Programming</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Differential Equations</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Digital Signal Processing</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Electromagnetic Fields & Waves I</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Electronic Circuits Lab</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Illinois Robotics in Space</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Intro to Computer Eng</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Intro to Computing Systems</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Intro to Electrical/Computer Eng</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Intro to Electronics</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Microelectronic Circuits</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Probability for Electrical/Computer Eng</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >Topics in Mathematics</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >University Physics&#58; Classical/Mechanics</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >University Physics&#58; Electrostatics & Magnetism</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >University Physics&#58; Quantum Mechanics</td>
+                                                </tr>
+                                        
+                                                <tr id="EducationData_2500">
+                                                        <td class="hidden-sm hidden-xs" >University Physics&#58; Thermodynamics</td>
                                                 </tr>
                                         
                                 </tbody>
@@ -297,7 +443,7 @@ I enjoy creating great products with great user experiences and working in a dyn
 </div>
   </div>
   <div class="row">
-    <div class="col">
+    <div class="col"><span style="font-size:1vw;color:red;">---(Broken Github Widget:)---<br>
 	<div class="rounded_panel txt_lightgrey">
 		<div class="top-rounded-panel grey-bg">
 			<h1>Side Projects</h1>
@@ -329,7 +475,7 @@ I enjoy creating great products with great user experiences and working in a dyn
 		<br>
 	</div>
 
-</div>
+-------------------------------------</span></div>
   </div>
 </div>
 
@@ -342,7 +488,31 @@ I enjoy creating great products with great user experiences and working in a dyn
 <br>
 	-->
 
-                   <!-- JS -->
+            </div>
+      <nav class="navbar  navbar-fixed-top">
+        <div class="container">
+                <div class="navbar-header">
+                        <a class="navbar-brand" href="#" style="color:#005985;">
+                                jrabinowitz2@gmail.com
+                        </a>
+                </div>
+                <div id="navbar" class="navbar-header">
+                        <ul class="nav navbar-nav navbar navbar-right">
+                                
+                                        <div class="col"><li><a style="color:coral;" class="nav-link" href="https://github.com/jrabinowitz2" target="_blank"><img src="http://localhost:4000/assets/github.png" width="30px" height="30px" class="img-fluid"></a></li></div>
+                                
+                                        <div class="col"><li><a style="color:coral;" class="nav-link" href="https://www.linkedin.com/in/josh-rabinowitz-915705158" target="_blank"><img src="http://localhost:4000/assets/linkedIn.png" width="30px" height="30px" class="img-fluid"></a></li></div>
+                                
+                                        <div class="col"><li><a style="color:coral;" class="nav-link" href="https://depaul.joinhandshake.com/users/3344898" target="_blank"><img src="http://localhost:4000/assets/handshake.png" width="30px" height="30px" class="img-fluid"></a></li></div>
+                                
+                        </ul>
+                </div>
+        </div>
+</nav>
+
+      </body>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" async="" src="./js/jquery.githubRepoWidget.custom.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -351,12 +521,8 @@ I enjoy creating great products with great user experiences and working in a dyn
 <!--  LinkedIn Badge -->
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
-<p style="text-align:center;color:#005985;">THIS IS THE FOOTER!!!</p>
-
-            </div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script type="text/javascript" async="" src="./js/jquery.githubRepoWidget.custom.js"></script>
 
 
-      </body>
+</div>
+
 </html>

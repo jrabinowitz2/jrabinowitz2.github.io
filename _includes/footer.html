@@ -1,10 +1,16 @@
-<!-- JS -->
-<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-<!--  LinkedIn Badge -->
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-
-<p style="text-align:center;color:#005985;">THIS IS THE FOOTER!!!</p>
+<nav class="navbar  navbar-fixed-top">
+        <div class="container">
+                <div class="navbar-header">
+                        <a class="navbar-brand" href="#" style="color:#005985;">
+                                {{site.email}}
+                        </a>
+                </div>
+                <div id="navbar" class="navbar-header">
+                        <ul class="nav navbar-nav navbar navbar-right">
+                                {% for link in site.primarylinks %}
+                                        <div class="col"><li><a style="color:coral;" class="nav-link" href="{{link.url}}" target="_blank"><img src="{{site.url}}/assets/{{link.logo}}" width="{{link.logo_size}}px" height="{{link.logo_size}}px" class="img-fluid"></a></li></div>
+                                {% endfor %}
+                        </ul>
+                </div>
+        </div>
+</nav>

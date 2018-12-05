@@ -6491,6 +6491,18 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important; } }
+/** Parallax scrolling effect **/
+.parallax {
+  /** The image used **/
+  background-image: url("http://localhost:4000/assets/background_laptop.jpg");
+  /* Set a specific height */
+  min-height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 /** Mobile-friendly columns **/
 .row.row-grid [class*="col-"] + [class*="col-"] {
   margin-top: 15px; }
@@ -6532,8 +6544,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 /** MAIN STYLE **/
 body {
-  /*	background: url('../assets/background_textured.jpg'); */
-  background-color: silver;
+  background: url("../assets/background_laptop.jpg");
+  /**	background-color: rgb(192,192,192); **/
   padding-top: 40px;
   color: black; }
 
