@@ -6494,7 +6494,7 @@ a.text-dark:hover, a.text-dark:focus {
 /** Parallax scrolling effect **/
 .parallax {
   /** The image used **/
-  background-image: url("http://localhost:4000/assets/background_laptop.jpg");
+  background: url("../assets/background_laptop.jpg");
   /* Set a specific height */
   min-height: 100%;
   /* Create the parallax scrolling effect */
