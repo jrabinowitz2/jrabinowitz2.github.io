@@ -7,7 +7,7 @@ description:
 
 ###User specific content
 primarylinks:
- - title: Github
+ - title: GitHub
    url: https://github.com/jrabinowitz2
    logo: github.png
    logo_size: 30
@@ -80,7 +80,7 @@ education:
     - Intro to Web Computing
     - Issues in Information Security
     - Network Interconnection Technologies
-    - Python
+    - Python for Programmers
     - Security Testing & Assessment
     - Telecommunication/Network Sec Practicum
     - Web Dev I
