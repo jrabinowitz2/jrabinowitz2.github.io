@@ -3,14 +3,14 @@
 		<div class="top-rounded-panel grey-bg">
 			<h1>Side Projects</h1>
 		</div>
-		<div class="content-rounded-panel" style="overflow: visible;">
-			<div id="github">
+		<div class="content-rounded-panel" style="overflow: hidden;">
+			<div>
 				{% for project in site.github %}
 					{% assign loopindex = forloop.index | modulo: 2 %}
 					{% if loopindex == 1 %}
 					<div class="row">
 					{% endif %}
-						<div class="col-lg-6">
+						<div class="col-6">
 							<div class="github-widget" data-repo="{{project}}"></div>
 						</div>
 					{% if loopindex == 0 %}
@@ -22,6 +22,5 @@
 				{% endif %}
 			</div>
 		</div>
-		<br>
 	</div>
 {% endif %}
