@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+{% include head.html %}
 
-<!-- Parallax effect -->
-<div class="parallax">
-
-       {% include head.html %}
+<div class="parallax"><!-- Parallax effect -->
        <body>
              {% include header.html %}
              <div class="container">
@@ -12,8 +10,6 @@
             </div>
       {% include footer.html %}
       </body>
-      {% include jsimports.html %}
-
 </div>
-
+{% include jsimports.html %}
 </html>
