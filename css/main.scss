@@ -3,6 +3,19 @@
 
 @import 'bootstrap/bootstrap';
 
+/** Force visible scroll bar for coursework **/
+#coursework::-webkit-scrollbar {
+  -webkit-appearance: none;
+/*  width: 10px; */
+    overflow-x:hidden;
+}
+
+#coursework::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #005985;
+/*  -webkit-box-shadow: 0 0 1px #005985; */
+}
+
 /** Parallax scrolling effect **/
 .parallax {
     /** The image used **/ 
@@ -486,9 +499,10 @@ td.loginRow {
 	font-size: 2em;
 }
 
-/*
+
 .github-box {
 	margin-top: 15px;
-}*/
+	margin-bottom: 15px;
+}
 
 

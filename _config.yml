@@ -52,7 +52,7 @@ technologies:
 
 certs:
  - name: CCENT
-   association: CISCO
+   association: Cisco
  - name: G Suite Administrator
    association: Google
 
