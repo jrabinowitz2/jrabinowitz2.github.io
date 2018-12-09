@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html %}
 
-<div class="parallax"><!-- Parallax effect -->
-       <body>
+	{% include head.html %}
+       <body class="parallax">
              {% include header.html %}
              <div class="container">
                    {{ content }}
             </div>
       {% include footer.html %}
       </body>
-</div>
 {% include jsimports.html %}
 </html>

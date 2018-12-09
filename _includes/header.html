@@ -1,14 +1,14 @@
-<nav class="navbar navbar-inverse  navbar-fixed-top navbar-dark bg-dark">
+<nav class="navbar navbar-fixed-top" style="background-color:#005985;">
 	<div class="container">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="#" style="color:coral;">
+			<font face="impact"><a id="nametag" class="navbar-brand" href="#" style="color:#c0c0c0; font-size:30px;">
 				{{site.title}}
-			</a>
+			</a></font>
 		</div>
 		<div id="navbar" class="navbar-header">
 			<ul class="nav navbar-nav navbar navbar-right">
 				{% for link in site.primarylinks %}
-					<div class="col"><li><img src="{{site.url}}/assets/{{link.logo}}" width="{{link.logo_size}}px" height="{{link.logo_size}}px" class="img-fluid"><a style="color:coral;" class="nav-link" href="{{link.url}}" target="_blank">{{link.title}}</a></li></div>
+					<div class="col"><li><img src="{{site.url}}/assets/{{link.logo}}" width="{{link.logo_size}}px" height="{{link.logo_size}}px" class="img-fluid"><a class="nav-link" href="{{link.url}}" target="_blank" style="color:coral;">{{link.title}}</a></li></div>
 				{% endfor %}
 			</ul>
 		</div>

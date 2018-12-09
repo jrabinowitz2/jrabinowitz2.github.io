@@ -2,6 +2,20 @@
 ---
 
 @import 'bootstrap/bootstrap';
+#nametag {
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+	text-color: white;
+}
+
+/** override navbar **/
+.nav .navbar .navbar-inverse .navbar-fixed-top{
+background-color: #005985 !important;
+border-color: red !important;
+}
 
 /** Force visible scroll bar for coursework **/
 #coursework::-webkit-scrollbar {
@@ -52,25 +66,6 @@
     }
 }
 
-/** NavBar override **/
-.nav>li>a:focus, .nav>li>a:hover,.navbar-inverse .nav li.dropdown.open>.dropdown-toggle,.navbar-inverse .nav li.dropdown.active>.dropdown-toggle,.navbar-inverse .nav li.dropdown.open.active>.dropdown-toggle{
-	background-color: #2d3538;
-}
-.navbar-inverse .nav>li>a {
-        color: #A5C5DF;
-}
-.navbar-inverse .brand {
-        color: white;
-}
-.navbar-inverse  {
-        background-color: #4B8ABE;
-        background-image: linear-gradient(to bottom, #2d3538, #2d3538);
-        border-width: 0px;
-        border-color: #2d3538;
-        color: white;
-        box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
-}
-
 /** skills labels **/
 .label-padded{
         padding: 5px;
@@ -85,7 +80,7 @@
 
 
 body {
-	background: url('../assets/background_laptop.jpg');
+/*	background: url('../assets/background_laptop.jpg'); */
 /**	background-color: rgb(192,192,192); **/
 	padding-top: 40px;
 	color:black; 
@@ -104,7 +99,7 @@ table {
 .overlay { 
   display:none; 
   position:absolute; 
-  background:#fff; 
+/*  background:#000; */
 }
 .img-load { 
   position:absolute; 
@@ -144,8 +139,8 @@ table {
 
 
 #header_container {
-/**	background-color:#1E3D5A; **/
-/**	background: #fff url('../images/txtDarkBground.png'); **/
+/*	background-color:#000000; */
+/*	background: #fff url('../assets/background_laptop.png'); */
 	
 }
 
@@ -189,7 +184,7 @@ table {
 }
 
 #footer_container{
-	background: #262626; /*url('../images/txtDarkBground.png');*/
+/*	background: #262626; url('../images/txtDarkBground.png');*/
 }
 
 .clearfooter {
@@ -307,14 +302,14 @@ h2 {
 	margin:1px 0;
 }
 
-.nerdScoreHeader{
+/*.nerdScoreHeader{
 	font-size:75px; 
 	text-align:center;
 	font-weight: 100; 
 	line-height: normal;
 	background-color: #ff6840;
 	color: #ffd873;
-}
+}*/
 
 
 
@@ -323,12 +318,12 @@ h2 {
 	padding-left:10px;  
 	padding-top:10px; 
 }
-.search-score{
+/*.search-score{
 	font-size:25px;
 	font-style:bold; 
     color:#ffd873;
 	text-align:center; 
-}
+}*/
 .small_text{
 	font-size:x-small;
 	font-style:italic;
@@ -379,9 +374,9 @@ textarea{
     display: inline-block;
 }
 
-.activityStatus{
+/*.activityStatus{
     background-color: #6A9BC8;
-}
+}*/
 
 .mousePointer{
 	cursor: pointer;
