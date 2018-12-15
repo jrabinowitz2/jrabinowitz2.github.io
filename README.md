@@ -4,7 +4,7 @@ Welcome to my personal website! This page servers as an online CV, with links to
 
 This page was built with...
   
-  -Jekyll (static site generator, integrated with Github Pages_
+  -Jekyll (static site generator, integrated with Github Pages)
   
   -Bootstrap (HTML/CSS modern styling framework)
   
@@ -13,4 +13,5 @@ This page was built with...
   To learn more about how this page was set up, see the documentation below:
   
   Jekyll https://jekyllrb.com/docs/
+
   Bootstrap https://getbootstrap.com/docs/4.1/getting-started/introduction/
