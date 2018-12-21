@@ -26,6 +26,7 @@ skills:
  - Enterprise Network Design/Security
  - Malware Analysis
  - Reverse-Engineeering
+ - Fuzz-testing
  - Web Dev
  - Malware Removal
  - Technical Writing
@@ -49,6 +50,7 @@ technologies:
  - VMWare
  - OllyDGB
  - CISCO
+ - Peach
 
 certs:
  - name: CCENT
@@ -115,6 +117,7 @@ education:
 github:
  - jrabinowitz2/jrabinowitz2.github.io
  - jrabinowitz2/Minesweeper-RE-Challenge
+ - jrabinowitz2/Subdomain-Scanner
 
 ####Build settings
 permalink: :title/
