@@ -1,4 +1,4 @@
-# jrabinowitz2.github.io
+# https://jrabinowitz2.github.io
 
 Welcome to my personal website! This page servers as an online CV, with links to my resume as well as all of my professional profiles.
 
