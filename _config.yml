@@ -61,7 +61,7 @@ education:
  - school: DePaul University
    level: B.S.
    date: Spring 2019
-   subject: Cybersecurity (Minor: Computer Science)
+   subject: "Cybersecurity (Minor: Computer Science)"
    logo: depaul.png
    logo_size: 30
    courses:
