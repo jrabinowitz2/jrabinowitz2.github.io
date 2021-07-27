@@ -31,6 +31,7 @@ skills:
  - Programming
  - Scripting
  - Automation
+ - Cryptography
  - Vulnerability Assessment
  - Exploit Development
  - Architecture Review
@@ -62,6 +63,7 @@ technologies:
 - Nmap, Wireshark, Metasploit
 - Burp Suite, Scout Suite, Drozer
 - IDA Pro, Ghidra, Binwalk
+- Cryptocurrency, Blockchain, Chainlink
 
 
 certs:
