@@ -28,6 +28,9 @@ skills:
  - Hardware/Embedded Security
  - IoT Security
  - Enterprise Network Design/Security
+ - Physical Security
+ - Social Engineering
+ - Infrastructure Security
  - Programming
  - Scripting
  - Automation
@@ -46,6 +49,7 @@ skills:
  - Technical Writing
  - Digital Forensics
  - PCB Design
+ - Analog/Digital Signal Processing
  - Firmware Extraction/Analysis
 
 technologies:
@@ -68,6 +72,7 @@ technologies:
 - Burp Suite, Scout Suite, Drozer
 - IDA Pro, Ghidra, Binwalk
 - Cryptocurrency, Blockchain, Chainlink
+- Lockpicking
 
 
 certs:
