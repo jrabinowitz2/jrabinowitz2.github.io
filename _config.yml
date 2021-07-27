@@ -22,35 +22,46 @@ primarylinks:
 
 skills:
  - Consulting
- - Pentesting
+ - Penetration Testing
+ - Web/Mobile Application Security
+ - OWASP Top 10
+ - Hardware/Embedded Security
+ - IoT Security
  - Enterprise Network Design/Security
+ - Programming
+ - Scripting
+ - Automation
+ - Exploit Development
+ - Architecture Review
+ - Secure Software Development
  - Malware Analysis
  - Reverse-Engineeering
  - Fuzz-testing
- - Web Dev
- - Malware Removal
  - Technical Writing
- - Forensics
+ - Digital Forensics
+ - PCB Design
+ - Firmware Extraction/Analysis
 
 technologies:
- - Assembly
- - C/C++
- - Python
- - SQL
- - Linux
- - Git
- - Apache
- - Firewalls
- - RoR
- - Bootstrap
- - Jekyll
- - Arduino
- - Hardware
- - IDA Pro
- - VMWare
- - OllyDGB
- - CISCO
- - Peach
+- Linux, OS X, Windows, Android, Cisco IOS
+- Assembly, C/C++, Java, Ruby, PHP
+- Python, Bash
+- HTML, CSS, JavaScript, SQL
+- Git, Github, Gitlab
+- Eclipse, IDLE, Android Studio, Xcode
+- Apache, Rails
+- Arduino, Teensy, Raspberry Pi
+- EAGLE, LTspice
+- SDR, GQRX, GNU Radio
+- UART, JTAG, SPI, I2C, ICSP
+- Bluetooth, Zigbee, RF
+- VMware, Virtualbox
+- GDB, ADB, OllyDBG, WinDBG, Radare2
+- TCP/IP, HTTP, HTTPS, SSH
+- Nmap, Wireshark, Metasploit
+- Burp Suite, Scout Suite, Drozer
+- IDA Pro, Ghidra, Binwalk
+
 
 certs:
  - name: CCENT
