@@ -66,10 +66,11 @@ technologies:
 - UART, JTAG, SPI, I2C, ICSP
 - Bluetooth, Zigbee, RF
 - VMware, Virtualbox
+- beSTORM, Defensics, Coverity, Protecode
 - GDB, ADB, OllyDBG, WinDBG, Radare2
-- TCP/IP, HTTP, HTTPS, SSH
+- TCP/IP, HTTP, HTTPS, SSH, DNS, FTP
 - Nmap, Wireshark, Metasploit
-- Burp Suite, Scout Suite, Drozer
+- Burp Suite, Scout Suite, Drozer, Nessus, AppSpider
 - IDA Pro, Ghidra, Binwalk
 - Cryptocurrency, Blockchain, Chainlink
 - Lockpicking
