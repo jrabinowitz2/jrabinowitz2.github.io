@@ -64,7 +64,7 @@ technologies:
 - EAGLE, LTspice
 - SDR, GQRX, GNU Radio
 - UART, JTAG, SPI, I2C, ICSP
-- Bluetooth, Zigbee, RF
+- Bluetooth/BLE, Zigbee, LoRa, Z-Wave, RF
 - VMware, Virtualbox
 - beSTORM, Defensics, Coverity, Protecode
 - GDB, ADB, OllyDBG, WinDBG, Radare2
